@@ -1,5 +1,5 @@
 name: Python test and build
-
+#will be trigger with each push
 on: [push]
 
 jobs:
@@ -23,5 +23,5 @@ jobs:
         uses: actions/upload-artifact@v4
         id: artifact-upload-step
         with:
-          name: test-results
+          name: test-results #It's the test results
           path: junit/test-results.xml
