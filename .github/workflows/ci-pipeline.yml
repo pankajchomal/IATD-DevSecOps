@@ -1,5 +1,5 @@
 name: Python test and build
-#will be trigger with each push
+#will be triggered with each push
 on: [push]
 
 jobs:
