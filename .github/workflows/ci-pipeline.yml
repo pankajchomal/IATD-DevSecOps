@@ -1,5 +1,5 @@
 name: Python test and build
-
+# This workflow will install Python dependencies, run tests and build the project
 on: [push]
 
 jobs:
